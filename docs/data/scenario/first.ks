@@ -1,33 +1,34 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="寝るか食べるかするメロス"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「今日は何時に寝ようか」[l][r]
 
-メロスは激怒した。[l][r]
+時刻は月曜日の０時００分。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+実験レポートの締め切り９時が迫っている。[l][r]
 
-(中略)[l][r]
+考察は何も手を付けていない。終わるのだろうか。[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+ああ、何もかも、ばかばかしい。どうとも、勝手にするがよい。やんぬる哉。[l][r]
+あなたは...[l][r]
+
+[link target=*tag_sleep] →もう少しがんばる [endlink][r]
+[link target=*tag_run] →１時間寝てみる [endlink][r]
 [s]
 
 *tag_sleep
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+[bg storage=neochi_computer_woman.png time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+いつの間にか寝落ちてしまったようだ。[l][r]
+起きたら時計の針は９時３５分を指していた。[r]
 
 【 BAD END 】[l][cm]
 
@@ -35,11 +36,11 @@
 
 *tag_run
 
-[bg storage=run.jpg time=500]
+[bg storage=yaruki_moeru_businesswoman.png time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+アラームのおかげで起きることができた。[l][r]
+疲れが取れ頭はさえている。爆速で実験レポートを完成できた。[r]
 
 【 GOOD END 】[l][cm]
 
